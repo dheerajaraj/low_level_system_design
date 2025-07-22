@@ -16,6 +16,10 @@ public class User {
         this.id = UUID.randomUUID();
     }
 
+    public String getEmail() {
+        return email;
+    }
+
     public UUID getId() {
         return id;
     }

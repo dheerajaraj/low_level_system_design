@@ -23,7 +23,15 @@ public class Transaction {
     public TransactionType getTransactionType() {
         return transactionType;
     }
+
     public double getAmount() {
         return amount;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("Transaction [id=").append(id.toString()).append(", accountId=").append(accountId).append(", transactionType=").append(transactionType).append(", amount=").append(amount).append("]");
+        return builder.toString();
     }
 }
