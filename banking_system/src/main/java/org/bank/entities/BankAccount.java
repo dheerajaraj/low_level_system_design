@@ -42,7 +42,7 @@ public class BankAccount {
         return transactions;
     }
 
-    public void addTransaction(Transaction transaction) throws WithdrawalAmountExceededException {
+    public synchronized void addTransaction(Transaction transaction) throws WithdrawalAmountExceededException {
         if (transaction.getTransactionType() == Transaction.TransactionType.CREDIT) {
             this.balance += transaction.getAmount();
         } else if (transaction.getTransactionType() == Transaction.TransactionType.DEBIT) {
