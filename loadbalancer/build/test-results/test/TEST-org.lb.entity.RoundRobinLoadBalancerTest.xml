@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.lb.entity.RoundRobinLoadBalancerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-27T14:46:03" hostname="Dheerajs-MBP" time="0.112">
+  <properties/>
+  <testcase name="testDeRegister()" classname="org.lb.entity.RoundRobinLoadBalancerTest" time="0.079"/>
+  <testcase name="testGet()" classname="org.lb.entity.RoundRobinLoadBalancerTest" time="0.008"/>
+  <testcase name="testRegister()" classname="org.lb.entity.RoundRobinLoadBalancerTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

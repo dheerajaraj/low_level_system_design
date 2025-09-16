@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="digital_wallet_service" target="22" />
+      <module name="digital_wallet_service.CacheWithTimeLimit" target="22" />
+      <module name="digital_wallet_service.CacheWithTimeLimit.main" target="22" />
+      <module name="digital_wallet_service.CacheWithTimeLimit.test" target="22" />
+      <module name="digital_wallet_service.main" target="22" />
+      <module name="digital_wallet_service.test" target="22" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
